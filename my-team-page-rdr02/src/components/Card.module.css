@@ -1,0 +1,44 @@
+.card {
+	position: relative;
+	max-width: 140px;
+	justify-self: center;
+}
+.card:nth-child(even) {
+	align-self: end;
+}
+.image {
+	max-width: 138px;
+}
+
+.name {
+	font-size: 1.4rem;
+}
+.job {
+	font-family: "PT Serif", sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	position: absolute;
+	right: -2px;
+	top: 1px;
+	transform: translateX(100%);
+	writing-mode: vertical-lr;
+}
+
+@media (min-width: 768px) {
+	.card {
+		max-width: 254px;
+	}
+	.card:nth-child(even) {
+		align-self: start;
+	}
+	.card:nth-child(2),
+	.card:nth-child(5) {
+		align-self: end;
+	}
+	.image {
+		max-width: 254px;
+		width: 100%;
+	}
+}
