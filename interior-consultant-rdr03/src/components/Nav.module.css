@@ -1,0 +1,29 @@
+.wrapper {
+	display: flex;
+}
+
+.logo {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	border: 1px solid white;
+	color: white;
+	padding: 1rem;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	color: white;
+	align-self: center;
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.header {
+		margin-bottom: 10rem;
+	}
+}

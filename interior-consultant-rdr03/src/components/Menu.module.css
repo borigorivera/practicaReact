@@ -1,0 +1,21 @@
+.menu {
+	align-self: center;
+	text-align: center;
+	margin: auto;
+	line-height: 3.2rem;
+}
+
+a {
+	color: white;
+	text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+	.menu {
+		display: flex;
+		margin: 0;
+		gap: 8.6rem;
+	}
+	a {
+	}
+}
