@@ -1,0 +1,49 @@
+.ingredients {
+	font-family: "Playfair Display", sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.title {
+	font-family: "Playfair Display", sans-serif;
+}
+
+.wrapper {
+	margin-bottom: 4rem;
+}
+
+.ingredient {
+	margin-bottom: 2.3rem;
+	font-weight: 400;
+	font-size: 1.6rem;
+	font-style: italic;
+}
+
+.item {
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 1.4rem;
+}
+
+input {
+	width: 2.1rem;
+	height: 2.1rem;
+	flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+	.ingredient {
+		font-size: 1.8rem;
+	}
+
+	.item {
+		margin-bottom: 1.6rem;
+	}
+
+	.title {
+		font-size: 2.4rem;
+	}
+}

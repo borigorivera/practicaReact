@@ -1,0 +1,35 @@
+.wrapper {
+	max-width: 90rem;
+
+	margin: 0 auto;
+	padding-bottom: 15rem;
+
+	padding-top: 3.2rem;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.container {
+}
+
+.source {
+	font-family: "Montserrat";
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: #bdbdbd;
+}
+
+@media (min-width: 768px) {
+	.container {
+		display: grid;
+		grid-template-columns: 3fr 1.5fr;
+		grid-template-rows: 1fr;
+		align-items: start;
+		gap: 15rem;
+	}
+
+	.column {
+		grid-column: 1;
+		grid-row: 1;
+	}
+}
