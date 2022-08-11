@@ -1,0 +1,39 @@
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	margin-bottom: 1.2em;
+}
+.photo {
+	width: 112px;
+	height: 112px;
+	border-radius: 1.6rem;
+	margin-bottom: 1.5em;
+}
+
+.name {
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	margin-bottom: 0.5em;
+}
+.place {
+	font-size: 1rem;
+	line-height: 1.2rem;
+	color: #a9a9a9;
+}
+
+@media (min-width: 768px) {
+	.photo {
+		width: 17rem;
+		height: 17rem;
+	}
+
+	.name {
+		font-size: 2.4rem;
+	}
+	.place {
+		font-size: 1.4rem;
+	}
+}
