@@ -1,0 +1,68 @@
+.wrapper {
+	display: flex;
+
+	gap: 2rem;
+	margin-bottom: 3rem;
+}
+
+.photo {
+	width: 12.275rem;
+	height: 12.464rem;
+	border-radius: 1.3rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-basis: 100%;
+}
+
+.name {
+	font-size: 1.2rem;
+	color: #4e5150;
+
+	margin-bottom: 0.5rem;
+}
+
+.priceContainer {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 2.5rem;
+}
+
+.price {
+	font-size: 1.4rem;
+	line-height: 17px;
+
+	color: #f2994a;
+}
+
+.realPrice {
+	font-size: 1rem;
+	line-height: 12px;
+	text-decoration-line: line-through;
+
+	color: #4e5150;
+}
+
+.controlContainer {
+	max-width: 122.8px;
+	min-height: 49.86px;
+	border: 1px solid #828282;
+	border-radius: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+}
+
+.button {
+	width: 19.39px;
+	height: 19.39px;
+	background: #e0e0e0;
+	border: none;
+	border-radius: 0.4rem;
+	color: #828282;
+}

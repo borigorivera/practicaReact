@@ -1,0 +1,28 @@
+.label {
+	display: block;
+	font-size: 10px;
+	line-height: 12px;
+	color: #4f4f4f;
+	margin-bottom: 0.5rem;
+}
+
+.input {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #828282;
+	border-radius: 12px;
+	padding: 1.277rem;
+	margin-bottom: 1.65rem;
+	max-width: 38.3rem;
+}
+
+.input:focus {
+	outline: none;
+	box-shadow: 0 0 5px #f2994a;
+}
+
+.input::placeholder {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2rem;
+	color: #828282;
+}
